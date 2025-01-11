@@ -630,7 +630,7 @@
     height: 0;
 }*/
 
-.videocenter {
+.video videocenter {
     margin : 0 auto;
     width : 80%;
     display : block;
