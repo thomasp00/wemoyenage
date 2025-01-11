@@ -632,7 +632,7 @@
 
 .videocenter {
     margin : 0 auto;
-    width : 300px;
+    width : 80%;
     display : block;
 }        
 /*.video iframe {
