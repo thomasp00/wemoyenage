@@ -631,9 +631,9 @@
 }*/
 
 .videocenter {
-    margin : 0 auto;
-    width : 80%;
-    display : block;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
 }        
 /*.video iframe {
     position: absolute;
