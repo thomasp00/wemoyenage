@@ -630,10 +630,10 @@
     height: 0;
 }*/
 
-.video  {
+.videocenter {
+    margin : 0 auto;
+    width : 300px;
     display : block;
-    margin-left:auto;
-    margin-right:auto;
 }        
 /*.video iframe {
     position: absolute;
