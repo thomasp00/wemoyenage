@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'diploma';
-    src: url('/font_diploma.ttf');
-}  
+
 
 
 /********** Template CSS **********/
@@ -10,6 +7,11 @@
     --light: #F5F5F5;
     --dark: #353535;
 }
+
+@font-face {
+    font-family: 'diploma';
+    src: url('/font_diploma.ttf');
+}  
 
 .fw-medium {
     font-weight: 500 !important;
