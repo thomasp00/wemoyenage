@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'diploma';
+    src: url('/fonts/diploma.ttf');
+}  
+
+
 /********** Template CSS **********/
 :root {
     --primary: #AB7442;
