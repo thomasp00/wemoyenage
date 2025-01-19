@@ -674,10 +674,12 @@
     height: 0;
 }*/
 
-.videocenter {
-    margin: 0 auto;
-    width: 80%;
-    display: block;
+.videocentre {
+    width:70%;
+}      
+
+.videocentre iframe {
+    aspect-ratio:16/9;
 }        
 /*.video iframe {
     position: absolute;
