@@ -684,8 +684,8 @@
 
 .video {
     width: auto;
-    height: 100%; /* La vidéo prendra toute la hauteur disponible */
-    max-width: 100%; /* La largeur de la vidéo sera limitée à la largeur de l'écran */
+    height: 800%; /* La vidéo prendra toute la hauteur disponible */
+    max-width: 90%; /* La largeur de la vidéo sera limitée à la largeur de l'écran */
     object-fit: contain; /* Maintient les proportions de la vidéo */
 }
 
