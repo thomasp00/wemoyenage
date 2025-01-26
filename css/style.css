@@ -674,16 +674,16 @@
     height: 0;
 }*/
 
-.videocentre {
+.videocentre iframe {
     height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }      
 
-.videocentre iframe {
+/*.videocentre iframe {
     aspect-ratio: 9/16;
-}        
+}*/        
 /*.video iframe {
     position: absolute;
     top: 0;
