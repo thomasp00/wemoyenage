@@ -688,6 +688,7 @@
     height: 100%;
     max-width: 90%;
     object-fit: contain; /* Garder les proportions sans déformation */
+    cursor: pointer; /* Changer le curseur pour indiquer que c'est cliquable */
 }
 /*.video iframe {
     position: absolute;
