@@ -681,9 +681,10 @@
     align-items: center;
 }      
 
-.video {
-    display: block;
-    width: 70%;
+.iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
 }       
 /*.video iframe {
     position: absolute;
