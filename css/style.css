@@ -681,10 +681,11 @@
     align-items: center;
 }      
 
-.iframe {
-    aspect-ratio: 9/16;
+.ratio {
+    padding-bottom: 178%;
+    position: relative;
+    display: block;
     width: 100%;
-    height: auto;
 }       
 /*.video iframe {
     position: absolute;
