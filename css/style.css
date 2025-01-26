@@ -683,9 +683,10 @@
 
 .ratio {
     padding-bottom: 178%;
-    position: absolute;
-    display: block;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }       
 /*.video iframe {
     position: absolute;
