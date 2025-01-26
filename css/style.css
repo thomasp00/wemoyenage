@@ -684,8 +684,8 @@
 }
 
 .video {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: contain; /* Garder les proportions sans déformation */
     cursor: pointer; /* Changer le curseur pour indiquer que c'est cliquable */
 }
