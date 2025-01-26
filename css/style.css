@@ -675,17 +675,21 @@
 }*/
 
 .video-container {
-    width: 100%; /* Utilise toute la largeur de l'écran */
+    width: 90%;
     height: 80vh; /* Limite la hauteur à 80% de la hauteur de l'écran */
     display: flex;
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
+    position: relative;
 }
 
 .video {
-    max-width: 100%; /* La vidéo occupera toute la largeur disponible tout en gardant les proportions */
-    max-height: 100%; /* La vidéo ne dépassera pas la hauteur du conteneur */
-    object-fit: contain; /* Garde les proportions sans déformer la vidéo */
+    width: auto; /* Garde la largeur en fonction de la hauteur */
+    height: 100%; /* La vidéo prendra toute la hauteur disponible dans le conteneur */
+    max-width: 90%; /* La largeur de la vidéo sera limitée à 90% de la largeur de l'écran */
+    object-fit: contain; /* Maintient les proportions de la vidéo */
+    display: block; /* Assure qu'il n'y a pas d'espace blanc autour de la vidéo */
+    margin: 0 auto; /* Assure que la vidéo reste centrée horizontalement */
 }
 
 /*.video iframe {
