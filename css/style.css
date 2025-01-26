@@ -687,6 +687,7 @@
     height: 80%; /* La vidéo prendra toute la hauteur disponible */
     max-width: 90%; /* La largeur de la vidéo sera limitée à la largeur de l'écran */
     object-fit: contain; /* Maintient les proportions de la vidéo */
+    margin: 0 auto; /* Assure que la vidéo reste centrée horizontalement */
 }
 
 /*.video iframe {
