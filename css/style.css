@@ -676,8 +676,8 @@
 
 .video-container {
     width: 100%;
-    max-width: 600px; /* Limiter la largeur si nécessaire */
     height: 100%;
+    max-height: 600px; /* Limiter la largeur si nécessaire */
     display: flex;
     justify-content: center;
     align-items: center;
