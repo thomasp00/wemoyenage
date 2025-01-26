@@ -674,21 +674,21 @@
     height: 0;
 }*/
 
-.videocentre {
-    height: 70%;
+.video-container {
+    width: 100%;
+    max-width: 600px; /* Limiter la largeur si nécessaire */
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}      
+}
 
-.ratio {
-    aspect-ratio: 9/16;
-    width: 50%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}       
+.video {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Garder les proportions sans déformation */
+}
 /*.video iframe {
     position: absolute;
     top: 0;
