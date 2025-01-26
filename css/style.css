@@ -682,6 +682,7 @@
 }      
 
 .ratio {
+    aspect-ratio: 9/16;
     padding-bottom: 78%;
     width: 50%;
     height: auto;
