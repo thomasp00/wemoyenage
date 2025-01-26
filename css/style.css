@@ -680,13 +680,15 @@
     display: flex;
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
+    position: relative;
 }
 
 .video {
     width: auto;
-    height: 80%; /* La vidéo prendra toute la hauteur disponible */
+    height: 100%; /* La vidéo prendra toute la hauteur disponible */
     max-width: 90%; /* La largeur de la vidéo sera limitée à la largeur de l'écran */
     object-fit: contain; /* Maintient les proportions de la vidéo */
+    display: block; /* Assure qu'il n'y a pas d'espace blanc autour de la vidéo */
     margin: 0 auto; /* Assure que la vidéo reste centrée horizontalement */
 }
 
