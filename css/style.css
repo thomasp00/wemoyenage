@@ -683,7 +683,7 @@
 
 .ratio {
     padding-bottom: 178%;
-    position: relative;
+    position: absolute;
     display: block;
     width: 100%;
 }       
