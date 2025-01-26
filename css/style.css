@@ -674,7 +674,7 @@
     height: 0;
 }*/
 
-.videocentre iframe {
+.videocentre {
     height: 70%;
     display: flex;
     justify-content: center;
