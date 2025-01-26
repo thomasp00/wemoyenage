@@ -684,13 +684,9 @@
 }
 
 .video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: auto;
     height: 100%;
     max-width: 90%;
-    max-height: 80%;
     object-fit: contain; /* Garder les proportions sans déformation */
 }
 /*.video iframe {
