@@ -466,8 +466,17 @@
 
 
 /*** Team ***/
+.team-item {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+}
+
 .team-item img {
     transition: .5s;
+    display: block; /* Enlever l'espace blanc autour de l'image */
+    max-width: 100%; /* Ajuste l'image à la taille du conteneur */
 }
 
 .team-item:hover img {
@@ -476,14 +485,15 @@
 
 .team-item .team-social {
     position: absolute;
-    width: 300px;
-    top: 50%;
-    left: -38px;
-    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
+    justify-content: center; /* Centre les icônes socialement verticalement */
+    align-items: center; /* Centre horizontalement */
     background: #FFFFFF;
     transition: .5s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .team-item .team-social .btn {
@@ -497,7 +507,8 @@
 }
 
 .team-item:hover .team-social {
-    left: 0;
+    left: 50%; /* Cette ligne assure que l'élément reste centré en positionnement absolu */
+    transform: translate(-50%, -50%);
 }
 
 
