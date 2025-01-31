@@ -476,7 +476,7 @@
 
 .team-item .team-social {
     position: absolute;
-    width: 38px;
+    width: 300px;
     top: 50%;
     left: -38px;
     transform: translateY(-50%);
